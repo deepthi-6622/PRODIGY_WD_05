@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+  text-align: center;
+}
+
+.display {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 1em;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: greenyellow;
+}
+
+button:hover {
+  background-color: white;
+}
+
+#lapList {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+#lapList li {
+  margin: 5px 0;
+}
